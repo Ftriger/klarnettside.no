@@ -95,7 +95,7 @@ export const viewport: Viewport = {
 }
 
 // Bytt ut denne med din egen Google Apps Script /exec-URL (se google-apps-script-backend.gs)
-const FIRMASPORER_WEBHOOK_URL = 'WEBHOOK_URL'
+const FIRMASPORER_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbyQjesJtnPq87HfJbj1bnulLh8p-_alIlp-YS7FwLByAJgUMOegREVcnrnubxTsxCEe/exec'
 
 export default function RootLayout({
   children,
